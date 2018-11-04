@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="10.0" fill="#34e179" height="30.0" layoutX="31.0" layoutY="436.0" opacity="0.85" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="10.0" fill="#34e179" height="47.0" layoutX="312.0" layoutY="151.0" opacity="0.85" stroke="BLACK" strokeType="INSIDE" width="56.0" />
+      <ScrollBar layoutX="581.0" layoutY="40.0" orientation="VERTICAL" prefHeight="442.0" prefWidth="17.0" style="-fx-background-color: grey;" />
+      <Separator layoutY="40.0" prefHeight="0.0" prefWidth="600.0" />
+      <Label layoutX="8.0" layoutY="6.0" text="Gallivanter" textFill="#fcfcfc">
+         <font>
+            <Font name="Purisa" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="148.0" fitWidth="220.0" layoutX="29.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hotel1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="312.0" layoutY="77.0" text="Ritz Carlton" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="312.0" layoutY="114.0" text="Deluxe Room" textFill="#ab8484">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="156.0" prefHeight="37.0" prefWidth="47.0" text="4.5">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="226.0" text="Amenities" textFill="#e8e3e3">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="261.0" text="24X7 Wifi Facility" textFill="#7c7373" />
+      <Label layoutX="54.0" layoutY="284.0" text="Room Service" textFill="#7c7373" />
+      <Label layoutX="54.0" layoutY="308.0" text="Dry Cleaning Services" textFill="#7c7373" />
+      <Label layoutX="54.0" layoutY="335.0" text="Swimming Pool" textFill="#7c7373" />
+      <Label layoutX="54.0" layoutY="362.0" text="Escort to Airport" textFill="#7c7373" />
+      <Label layoutX="29.0" layoutY="259.0" prefHeight="21.0" prefWidth="17.0" text="*" textFill="#b5adad" />
+      <Label layoutX="29.0" layoutY="282.0" prefHeight="21.0" prefWidth="17.0" text="*" textFill="#b5adad" />
+      <Label layoutX="29.0" layoutY="306.0" prefHeight="21.0" prefWidth="17.0" text="*" textFill="#b5adad" />
+      <Label layoutX="29.0" layoutY="333.0" prefHeight="21.0" prefWidth="17.0" text="*" textFill="#b5adad" />
+      <Label layoutX="29.0" layoutY="360.0" prefHeight="21.0" prefWidth="17.0" text="*" textFill="#b5adad" />
+      <Label layoutX="29.0" layoutY="399.0" text="Reviews" textFill="#e8e3e3">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="399.0" text="(100)" textFill="#e8e3e3">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="428.0" text="Excellent Service" textFill="#e8e3e3">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="443.0" text="5" />
+      <Label layoutX="76.0" layoutY="450.0" text="By Ramakrishan" textFill="#7c7373" />
+      <Label layoutX="75.0" layoutY="469.0" text="I am a frequent visitor to the Ritz and it's a pleasure staying here" textFill="#e8e3e3" />
+      <Button layoutX="395.0" layoutY="279.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="113.0" style="-fx-background-color: maroon;" text="Book Now" textFill="#f5efef" />
+   </children>
+</Pane>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+
+   <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="343.0" prefWidth="598.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="70.0" fitWidth="120.0" layoutX="41.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hotel1.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="120.0" layoutX="45.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hotel2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="120.0" layoutX="41.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hotel3.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="208.0" layoutY="57.0" text="Ritz Carlton" textFill="#f5f0f0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="211.0" layoutY="171.0" text="Hyatt" textFill="#f5f0f0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="288.0" text="Lemon Tree" textFill="#f5f0f0">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="211.0" layoutY="114.0" text="4km from City Centre" />
+            <Label layoutX="211.0" layoutY="225.0" text="4km from City Centre" />
+            <Label layoutX="211.0" layoutY="341.0" text="4km from City Centre" />
+            <Separator layoutX="22.0" layoutY="146.0" opacity="0.3" prefHeight="3.0" prefWidth="565.0" />
+            <Separator layoutX="22.0" layoutY="260.0" opacity="0.3" prefHeight="3.0" prefWidth="565.0" />
+            <Label layoutX="437.0" layoutY="57.0" text="1,961/-" textFill="#7dbf78">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="437.0" layoutY="171.0" text="1,961/-" textFill="#7dbf78">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="428.0" layoutY="288.0" text="1,961/-" textFill="#7dbf78">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="430.0" layoutY="114.0" text="For 3 days: 5600/-" />
+            <Label layoutX="428.0" layoutY="225.0" text="For 3 days: 5600/-" />
+            <Label layoutX="428.0" layoutY="341.0" text="For 3 days: 5600/-" />
+            <Separator layoutX="-1.0" layoutY="41.0" opacity="0.76" prefHeight="3.0" prefWidth="600.0" />
+            <Label layoutX="6.0" layoutY="-1.0" prefHeight="31.0" prefWidth="105.0" text="Gallivanter" textFill="#fcf8f8">
+               <font>
+                  <Font name="Purisa" size="16.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

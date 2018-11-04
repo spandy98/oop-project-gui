@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Icon content="ERROR" layoutX="199.0" layoutY="65.0" prefHeight="44.0" prefWidth="43.0" style="-fx-background-image: white;" />
+      <Separator layoutY="29.0" prefHeight="10.0" prefWidth="600.0" />
+      <Label layoutY="-1.0" text="Gallivanter" textFill="#f5f4f4">
+         <font>
+            <Font name="Purisa" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="74.0" text="Sorry !" textFill="#f2e8e8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="245.0" text="If you are not satisfied with your booking," textFill="#796666">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="265.0" prefHeight="19.0" prefWidth="237.0" text="you may cancel your booking." textFill="#6f6262">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="110.0" text="No modifications can be made to your booking." textFill="#f2e8e8">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="365.0" fitWidth="594.0" layoutX="3.0" layoutY="52.0" opacity="0.18" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@room.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
